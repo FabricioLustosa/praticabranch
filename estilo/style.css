@@ -6,11 +6,25 @@
 }
 
 body {
-  background-color: bisque;
+  color: white;
+  text-align: center;
+  background-color: rgb(170, 136, 95);
   margin: auto;
   width: 500px;
   padding: 30px;
 }
 section {
-  background-color: brown;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.415);
+  border-radius: 20px;
+  padding: 30px;
+  margin: 20px;
+  background-color: rgb(167, 87, 87);
+}
+h1 {
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.415);
+  font-size: 2em;
+  color: white;
+}
+h2 {
+  padding-bottom: 20px;
 }
